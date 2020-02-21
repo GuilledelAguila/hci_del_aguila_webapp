@@ -2,6 +2,8 @@
     display: none;
 }
 
-.tooltip{
-
+.myclass{
+    display: inline-block;
+    margin: auto;
+    alignment: center;
 }
