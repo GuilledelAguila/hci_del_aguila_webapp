@@ -1,0 +1,39 @@
+.wbdv-field.wbdv-username{
+
+}
+.wbdv-field.wbdv-phone{
+
+}
+.wbdv-field.wbdv-email{
+
+}
+.wbdv-field.wbdv-role{
+
+}
+.wbdv-field.wbdv-dob{
+
+}
+.wbdv-button.wbdv-update{
+    background-color: green;
+}
+.wbdv-button.wbdv-logout{
+    background-color: red;
+}
+.wbdv-message{
+    background-color: lightgreen;
+    color: darkgreen;
+    text-align: left;
+
+}
+.container{
+    position: absolute;
+    top: 30%;
+    bottom: 30%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-profile{
+    display: inline-block;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+           rel="stylesheet"/>
+    <link href="profile.style.client.css"
+          rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+
+<h1 class="header-profile">Profile<i id="wbdv-edit" class="fa-1x fa fa-pencil wbdv-edit"></i></h1>
+    <form>
+        <div class="form-group row">
+            <label for="alertFld" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <div class=" form-control wbdv-message" id="alertFld">
+                    Profile successfully saved
+                </div>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="usernameFld" class="col-sm-2 col-form-label">
+                Username </label>
+            <div class="col-sm-10">
+                <input class="form-control wbdv-field wbdv-username"
+                       id="usernameFld"
+                       placeholder="Your Username"
+                        readonly>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="phoneFld" class="col-sm-2 col-form-label">
+                Phone </label>
+            <div class="col-sm-10">
+                <input type="tel" class="form-control wbdv-field wbdv-phone"
+                       id="phoneFld" placeholder="(555) 123-4324">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="emailFld" class="col-sm-2 col-form-label">
+                Email </label>
+            <div class="col-sm-10">
+                <input type="email" class="form-control wbdv-field wbdv-email"
+                       id="emailFld" placeholder="youremail@email.com">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="roleFld" class="col-sm-2 col-form-label">
+                Role </label>
+            <div class="col-sm-10">
+                <select class = "form-control wbdv-field wbdv-role" id="roleFld">
+                    <option value="Faculty">Faculty</option>
+                    <option value="Student">Student</option>
+                    <option value="Admin">Admin</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="dobFld" class="col-sm-2 col-form-label">
+                Date of Birth </label>
+            <div class="col-sm-10">
+                <input type="date" class="form-control wbdv-field wbdv-dob"
+                       id="dobFld" placeholder="Date of birth">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary btn-block wbdv-button wbdv-update"
+                        id="updateBtn">Update</button>
+                            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <button class="btn btn-primary btn-block wbdv-button wbdv-logout"
+                        formaction="../index.html"
+                        id="LogoutBtn">Logout</button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
